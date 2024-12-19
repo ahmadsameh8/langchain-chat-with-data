@@ -42,10 +42,14 @@ After that a Flask Api is created combining all the previously mentioned steps t
    pip install -r req.txt
    ```
 4. Unzip the ChromaDB folder:
-   To install unzip
-   ```sudo apt-get install unzip```
+   To install unzip library
+   ```bash
+   sudo apt-get install unzip
+   ```
    To unzip the document
-   ```unzip docs.zip```
+   ```bash
+   unzip docs.zip
+   ```
 
 # Running the Project
 After setting up the environment, run:
