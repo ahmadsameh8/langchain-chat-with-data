@@ -1,6 +1,6 @@
 # chat with data using langchain
 
-the projet uses falcon3-1b with chromadb through langchain to chat with custom data
+The projet uses falcon3-1b from huggingface with chromadb through langchain to chat with custom data
 
 
 
@@ -24,7 +24,7 @@ After that a Flask Api is created combining all the previously mentioned steps t
 ### Prerequisites
 
 - Python 3.11.10
-- [ChromaDB weights]([https://www.google.com/drive/](https://drive.google.com/file/d/1HmRp8nBQGOHuJSrdy1BApQKIdGjb5FpF/view?usp=sharing)) 
+- ChromaDB weights: [https://www.google.com/drive/](https://drive.google.com/file/d/1HmRp8nBQGOHuJSrdy1BApQKIdGjb5FpF/view?usp=sharing)) 
 
 
 ## Installation
@@ -34,19 +34,19 @@ After that a Flask Api is created combining all the previously mentioned steps t
    git clone https://github.com/ahmadsameh8/langchain-chat-with-data.git
    ```
 2. Navigate to the project directory:
-```bash
+   ```bash
    cd langchain-chat-with-data
-```
+   ```
 3. Install the required packages:
-```bash
-pip install -r req.txt
-```
+   ```bash
+   pip install -r req.txt
+   ```
 
 # Running the Project
 After setting up the environment, run:
-```bash
-python app.py
-```
+   ```bash
+   python app.py
+   ```
 This will start your main application with the flask api.
 
 # To test your application, use the test_app.ipynb Jupyter Notebook. Open it and send requests as needed.
