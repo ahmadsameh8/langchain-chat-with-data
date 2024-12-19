@@ -1,6 +1,6 @@
 # chat with data using langchain
 
-The projet uses falcon3-1b from huggingface with chromadb through langchain to chat with custom data
+The projet uses Falcon-3B-Instruct from huggingface with chromadb through langchain to chat with custom data
 
 
 
