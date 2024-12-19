@@ -24,7 +24,7 @@ After that a Flask Api is created combining all the previously mentioned steps t
 ### Prerequisites
 
 - Python 3.11.10
-- ChromaDB weights: [https://www.google.com/drive/](https://drive.google.com/file/d/1HmRp8nBQGOHuJSrdy1BApQKIdGjb5FpF/view?usp=sharing)) 
+- ChromaDB weights: https://drive.google.com/file/d/1HmRp8nBQGOHuJSrdy1BApQKIdGjb5FpF/view?usp=sharing
 
 
 ## Installation
@@ -41,14 +41,18 @@ After that a Flask Api is created combining all the previously mentioned steps t
    ```bash
    pip install -r req.txt
    ```
+4. Unzip the ChromaDB folder:
+   To install unzip
+   ```sudo apt-get install unzip```
+   To unzip the document
+   ```unzip docs.zip```
 
 # Running the Project
 After setting up the environment, run:
    ```bash
    python app.py
    ```
-This will start your main application with the flask api.
-
-# To test your application, use the test_app.ipynb Jupyter Notebook. Open it and send requests as needed.
+   This will start your main application with the flask api.
+   To test the chatbot/ to perform inference, use the test_app.ipynb Jupyter Notebook. Open it and send requests as needed.
 
 
