@@ -1,0 +1,6 @@
+langchain-community==0.3.12
+pypdf==5.1.0
+langchain-core==0.3.25
+langchain-huggingface==0.1.2
+chromadb==0.5.23
+Flask==3.1.0
